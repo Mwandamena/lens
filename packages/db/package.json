@@ -1,0 +1,21 @@
+{
+  "name": "@social-lens/db",
+  "module": "src/index.ts",
+  "types": "./src/index.ts",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prisma": "6"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@prisma/client": "6",
+    "dotenv": "^17.4.0"
+  }
+}

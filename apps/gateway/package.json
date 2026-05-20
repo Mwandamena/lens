@@ -1,0 +1,20 @@
+{
+  "name": "@social-lens/gateway",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target bun",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hono/node-server": "latest",
+    "@social-lens/logger": "workspace:*",
+    "@social-lens/types": "workspace:*",
+    "hono": "latest",
+    "hono-rate-limiter": "^0.5.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.7"
+  }
+}

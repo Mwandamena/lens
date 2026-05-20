@@ -5,6 +5,9 @@ node_modules
 .pnp
 .pnp.js
 
+# custom files
+monorepo.md
+
 # Local env files
 .env
 .env.local
@@ -36,3 +39,13 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+*storybook.log
+storybook-static
+
+# ai tools.cursorrules
+.vscode/
+.vscode/settings.json
+.claude
+.idea
+.gemini

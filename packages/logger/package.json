@@ -1,0 +1,20 @@
+{
+  "name": "@social-lens/logger",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "pino": "^8.19.0",
+    "pino-http": "^9.0.0",
+    "pino-pretty": "^11.0.0",
+    "@social-lens/types": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7",
+    "@types/node": "^20.0.0"
+  }
+}
